@@ -46,6 +46,11 @@ header #menu {
     font-size: 15px;
 }
 
+#menu ul li :hover {
+    border-bottom: 1px solid rgb(122, 116, 116);
+    font-size: 1.03em;
+}
+
 #menu ul li a {
     text-decoration: none;
     color: rgb(122, 116, 116); 
@@ -53,8 +58,10 @@ header #menu {
 
 #menu ul button {
     width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: none;
+    background-color: white;
 }
 
 #menu ul button img {
@@ -85,6 +92,10 @@ header #menu {
     text-decoration: none;
     color: rgb(122, 116, 116); 
  }
+ .segundaLista a:hover {
+    border-bottom: 1px solid rgb(122, 116, 116);
+    font-size: 1.03em;
+ }
 
  .segundaLista li::after{
     content: " /";
@@ -95,7 +106,7 @@ header #menu {
 
 #fundo {
     width: 700px;
-    margin-top: -117px;
+    margin-top: -119px;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -117,11 +128,42 @@ header #menu {
 
 /* MAIN -- Principal */
 main {
-    height: 40px;
+    height: 600px;
     width: 100%;
-    background-color: beige;
+    background-color: #FFFFFF
+
 }
 
+main #tituloMain {
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+main #cabecalho {
+    margin-top: 12px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(112, 108, 108); 
+}
+.main {
+    padding: auto;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #3CB816;
+    padding: 25px;
+}
+.container img {
+    width: 10px;
+    height: 10px;
+}
 /* FOOTER -- Parte de baixo */
 footer {
     height: 70px;
