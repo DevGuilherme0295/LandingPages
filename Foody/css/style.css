@@ -159,11 +159,42 @@ main #cabecalho {
 .container{
     background-color: #3CB816;
     padding: 25px;
+    height: 250px;
+    width: 250px;
 }
 .container img {
     width: 10px;
     height: 10px;
 }
+
+.info {
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.container p{ 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.formulario {
+    margin-left: 25px;
+}
+.formulario p {
+    margin-bottom: 15px;
+    color: rgb(112, 108, 108);
+    font-size: 11px;
+}
+.formulario p a {
+    text-decoration: none;
+    color: #3CB816;
+}
+
 /* FOOTER -- Parte de baixo */
 footer {
     height: 70px;
