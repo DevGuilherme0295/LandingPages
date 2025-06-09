@@ -48,7 +48,7 @@ header #menu {
 
 #menu ul li :hover {
     border-bottom: 1px solid rgb(122, 116, 116);
-    font-size: 1.03em;
+    font-size: 1.1em;
 }
 
 #menu ul li a {
@@ -173,9 +173,10 @@ main #cabecalho {
 }
 .container a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     margin-left: 10px;
-    font-weight: 100;
+    font-weight: 300;
+    color: #FFFFFF;
 }
 .container p{ 
     color: white;
