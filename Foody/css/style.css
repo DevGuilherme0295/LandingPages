@@ -196,6 +196,24 @@ main #cabecalho {
     color: #3CB816;
 }
 
+.inputFomulario  input{
+    width: 225px;
+    height: 35px;
+    margin-right: 6px;
+    margin-bottom: 12px;
+}
+
+.subject input {
+    width: 464px;
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+.message input {
+    width: 225px;
+    height: 110px;
+}
+
 /* FOOTER -- Parte de baixo */
 footer {
     height: 70px;
