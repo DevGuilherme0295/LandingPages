@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+.aside{
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+
+aside {
+  width: 250px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #333;
+} */
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    background-color: #630707;
+}
+
+.navbar img {
+    height: 90px;
+    padding-top: 10px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin-left: 40px;
+}
+
+.propaganda {
+    width: 100%;
+    height: 440px;
+    background-color: #2E0303;
+    display: flex;
+}
+
+.propaganda #cabecalho {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.propaganda h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 90px;
+}
+
+.linha {
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.propaganda img {
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.card {
+    text-align: center;
+    color: black;
+}
+.card h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card img {
+    height: 180px;
+}
+.card p {
+    color: black;
+}
+
+#valor  {
+    font-weight:500;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col img {
+    height: 180px;
+    margin: 20px;
+}
+
+.footer {
+    height: 350px;
+    background-color: #2E0303;
+    width: 100%;
+    padding: 100px;
+}
+
+.conteudo li, a, p {
+    color: white;
+}
+
+.lista1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-weight: bolder;
+  font-size: large;
+  gap: 10px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.item-footer::after {
+  content: '|';
+  margin-left: 10px;
+  color: white;
+}
+
+.item-footer:last-child::after {
+  content: '';
+}
+
+.l2 {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.l2 ::after{
+    content: '-';
+    margin-left: 6px;
+    color: white;
+}
+
+.l2 :last-child::after {
+    content: ' ';
+}
+
+.conteudo p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo #img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
