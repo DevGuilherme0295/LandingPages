@@ -210,8 +210,19 @@ main #cabecalho {
 }
 
 .message input {
-    width: 225px;
+    width: 464px;
     height: 110px;
+}
+
+.btn {
+    background-color: #3CB816;
+    color: white;
+    margin-top: 8px;
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 35px;
 }
 
 /* FOOTER -- Parte de baixo */
